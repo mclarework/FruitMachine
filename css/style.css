@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: grid;
+  height: 80%;
+  width: 80%;
+  background-color: aqua;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#start {
+  display: flex;
+  grid-column-start: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+
+#reset {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  border-width: 1px;
+  grid-column-start: 4;
+  justify-self: center;
+  align-self: center;
+  border-color: black;
+  border-style:solid;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+
+.slotImages {
+  display: flex;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.winLose {
+  display: flex;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  justify-content: center;
+  align-items: center;
+}
+
+#betUp {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  grid-row-start: 2;
+  grid-column-start: 5;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: black;
+  border-style:solid;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  font-size:normal;
+}
+
+#betValue {
+  display: flex;
+  grid-row-start: 3;
+  grid-column-start: 5;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#betDown {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  grid-row-start: 4;
+  grid-column-start: 5;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: black;
+  border-style:solid;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.balanceDeclare {
+  display: flex;
+  grid-row-start: 5;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.balance {
+  display: flex;
+  grid-row-start: 5;
+  grid-column-start: 4;
+  justify-content: flex-start;
+  align-items: center;
+}
